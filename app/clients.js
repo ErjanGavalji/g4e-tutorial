@@ -1,6 +1,3 @@
-const Glue = require('../lib/glue-js/node/tick42-glue');
-const config = require('../lib/tick42-glue/tick42-glue-config');
-
 const RestServerUrl = 'http://localhost:22910/';
 const RestServerEndpoint = 'Clients';
 const MethodName = 'SetParty';
@@ -10,7 +7,8 @@ const MethodName = 'SetParty';
 // When the promise is resolved, attach the received glue instance to `window` so it can be globally accessible
 // Then call the following functions:
 
-Glue(config).then(glue => {
+Glue(glueConfig).then(glue => {
+  window.glue = glue;
   checkGlueConnection();
   setUpUi();
   setupClients();

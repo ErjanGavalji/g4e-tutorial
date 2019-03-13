@@ -1,6 +1,3 @@
-const Glue = require('../lib/glue-js/node/tick42-glue');
-const config = require('../lib/tick42-glue/tick42-glue-config');
-
 const RestServerUrl = 'http://localhost:22910/';
 const RestServerEndpoint = 'GetDemoPortfolio';
 const StreamName = 'T42.MarketStream.Subscribe';
@@ -19,7 +16,7 @@ let logger;
 // TUTOR_TODO Chapter 1.2 - Call the Glue factory function and pass in the `glueConfig` object, which is registered by `tick42-glue-config.js`
 // When the promise is resolved, attach the received glue instance to `window` so it can be globally accessible
 // Then add all of the following code, leave the code under TUTOR_TODO Chapter 8 commented as you will need it later on:
-Glue(config).then(glue => {
+Glue(glueConfig).then(glue => {
   window.glue = glue;
   instrumentService();
   onInitializeApp();
