@@ -76,3 +76,16 @@ It was not clear that the config variable would be named `glueConfig` (I actuall
 13. [ ] **Terminology**
 
 There is the `AGM (aka GLUE) methods` section in the tutorial. Let's choose one and stick to it. Be consistent with the casing too to avoid confusion.
+
+14. [ ]  **Instructions not clear**
+
+See the text
+> Since different applications might be using different party identifiers,
+> when we’re defining a party, we’d define it as a `Composite` and put the
+> party IDs we’re using as members of this composite parameter. We also
+> need to check if this has not been already defined, and either re-use
+> it directly if it has all we need, or speak to ACE Governance to include our party ID.
+
+What is `Composite`, put a link? What is ACE Governance, put a link?
+Can we rename `party` to something else, e.g. `client` to make it easier for
+understanding?
