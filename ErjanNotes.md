@@ -27,3 +27,9 @@ But we never either list the functions, or mention they exist in the file as com
 
 5. The app folder is ignored in the repo. The person following the tutorial however would use this folder and their code would stay there. How would they keep track of their progress?
 
+6. The following several lines,
+
+> We have a session dedicated...
+> Note: configuration changes are detected in real-time
+
+got me scared that I would not actually get the instructions of how to publish. Present these instructions in a way, noting this is (?important, but ) additional information.
