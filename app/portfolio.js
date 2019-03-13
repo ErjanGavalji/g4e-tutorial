@@ -124,19 +124,22 @@ const registerAgmMethod = () => {
     // TUTOR_TODO Chapter 2.1 - register an AGM method 'SetParty', which accepts a composite argument 'party' with optional strings pId and ucn
     // in the callback - call loadPortfolio passing the pId received as a parameter.
     // assign the received party object to partyObj, because we will need it later on.
-    window.glue.agm.register(
-        {
-            name: 'SetParty',
-            accepts: 'int id',
-            returns: 'void',
-            displayName: 'Set Party',
-            description: 'Sets the ID of a client selected in the list',
-        },
-        (args) => {
-            loadPortfolio(args.pId);
-        }
-    );
-
+    const methodInfo = {
+        name: 'SetParty',
+        accepts: 'int id',
+        returns: 'void',
+        displayName: 'Set Party',
+        description: 'Sets the ID of a client selected in the list',
+    };
+    const methodExists = window.glue.agm.methods().find(m => m.name === methodInfo.name);
+    if (!methodExists) {
+        window.glue.agm.register(
+            methodInfo,
+            (args) => {
+                loadPortfolio(args.pId);
+            }
+        );
+    }
 };
 
 const loadPortfolio = (portf) => {
