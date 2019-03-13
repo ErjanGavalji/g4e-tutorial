@@ -37,3 +37,7 @@ The following several lines,
 > Note: configuration changes are detected in real-time
 
 got me scared that I would not actually get the instructions of how to publish. Present these instructions in a way, noting this is (?important, but ) additional information.
+
+7. [ ] **Confusing structure**
+Documentation has the **Glue for Developers** section in the side nav. It also has a top nav, containing Reference section. Can these be organized in a better way? Can we improve the visibility of the top nav, which is the master one?
+
