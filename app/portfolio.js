@@ -254,8 +254,9 @@ const addRow = (table, rowData, emptyFlag) => {
 
         // TUTOR_TODO Chapter 2.3 - Discover all registered methods with objectType 'Instrument'
         // invoke addAvailableMethods(*discovered methods*, rowData.RIC, rowData.BPOD)
-
-        // addAvailableMethods(partyMethods, rowData.RIC, rowData.BPOD);
+        const neededObjectType = 'Instrument';
+        const partyMethods = window.glue.agm.methods().filter(m => m.objectTypes && m.objectTypes.includes(neededObjectType));
+        addAvailableMethods(partyMethods, rowData.RIC, rowData.BPOD);
 
         row.setAttribute('data-toggle', 'modal');
         row.setAttribute('data-target', '#instruments');
