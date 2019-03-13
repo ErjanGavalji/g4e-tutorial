@@ -12,7 +12,8 @@ as well as copy the file under
 
 2. [ ] **Unnecessary version explanation**
 
-[Check page](https://docs.glue42.com/g4e/reference/glue/latest/glue/index.html):
+[Check the Referencing section of the reference](https://docs.glue42.com/g4e/reference/glue/latest/glue/index.html)
+
 See the text 
 
 > Because GLUE for JavaScript evolves, we’ve chosen the following the sematic version model: BreakingChangesVersion.FeatureVersion.FixVersion
