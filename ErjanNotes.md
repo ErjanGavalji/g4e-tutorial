@@ -15,7 +15,6 @@ as well as copy the file under
 [Check the Referencing section of the reference](https://docs.glue42.com/g4e/reference/glue/latest/glue/index.html)
 
 See the text 
-
 > Because GLUE for JavaScript evolves, we’ve chosen the following the sematic version model: BreakingChangesVersion.FeatureVersion.FixVersion
 
 This can be omitted by directly referencing the [Semantic Versioning](https://semver.org/) website. This will increase our coolness factor too ;-)
@@ -23,7 +22,6 @@ This can be omitted by directly referencing the [Semantic Versioning](https://se
 3. [ ] **Confusing instructions**
 
 We are listing the methods to be called in the clients.js. Their existence as commented code is not mentioned. We say
-
 >Now, do the same for portfolio.js, it is pretty much identical apart from the functions you need to call in the .then() statement.
 
 But we never either list the functions, or mention they exist in the file as comments.
@@ -41,7 +39,6 @@ The app folder is ignored in the repo. The person following the tutorial however
 6. [ ] **Confusing additional information**
 
 The following several lines,
-
 > We have a session dedicated
 > ...
 > Note: configuration changes are detected in real-time
@@ -51,4 +48,11 @@ got me scared that I would not actually get the instructions of how to publish. 
 7. [ ] **Confusing structure**
 
 Documentation has the **Glue for Developers** section in the side nav. It also has a top nav, containing Reference section. Can these be organized in a better way? Can we improve the visibility of the top nav, which is the master one?
+
+8. [ ] **Information incomplete**
+
+Section
+> To publish the application
+
+Only contains instructions to copy the configuration files. It does not contain instructions, nor a reference of what those files contain.
 
