@@ -67,6 +67,7 @@ The portfolio.html file is not mentioned in the tutorial
 11. [ ] **General improvement**
 
 In the beginning I thought the `client.js` and `portfolio.js` files are `nodejs` code and added require statements instead of adding them as script tags to the html files.
+Make it clear that the `client.js` and `portfolio.js` are being referenced in the respective html files?
 
 12. [ ] **Config variable**
 
