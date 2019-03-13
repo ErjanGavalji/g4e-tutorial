@@ -64,4 +64,11 @@ The applications are named Clients and Portfolio and are hard to find in AppMana
 
 The portfolio.html file is not mentioned in the tutorial
 
+11. [ ] **General improvement**
+
+In the beginning I thought the `client.js` and `portfolio.js` files are `nodejs` code and added require statements instead of adding them as script tags to the html files.
+
+12. [ ] **Config variable**
+
+It was not clear that the config variable would be named `glueConfig` (I actually required the config file and assigned it to my own variable).
 
