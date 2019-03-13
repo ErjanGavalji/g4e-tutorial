@@ -1,4 +1,4 @@
-Notes on the Getting started tutorial
+Notes on the [Getting started tutorial](https://docs.glue42.com/g4e/tutorial/index.html)
 ----
 *by Erjan Gavalji, Solutions Engineer, Glue42*
 
