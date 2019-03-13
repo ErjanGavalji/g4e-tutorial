@@ -1,8 +1,8 @@
-Notes on the Getting started tutorial and the reference
+Notes on the Getting started tutorial
 ----
 *by Erjan Gavalji, Solutions Engineer, Glue42*
 
-1. Tutorial: Step 1.2: I want to add a reference to the JavaScript and I did not find it.
+[] 1. Tutorial: Step 1.2: I want to add a reference to the JavaScript and I did not find it.
 Possibly mention the SDK folder I have on my desktop and suggest
 `npm install  ~/AppData/Local/Tick42/GlueSDK/GlueJS/tick42-glue-major.minor.patch.tgz`
 as well as copy the file under
