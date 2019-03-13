@@ -24,3 +24,6 @@ But we never either list the functions, or mention they exist in the file as com
    >The application initialized Glue and is deployed (http-server), now you should publish it, so it’s available to your users in the App manger. In this tutorial, we’ll explain, and will work with the file mode configuration.
 
    What will we explain?
+
+5. The app folder is ignored in the repo. The person following the tutorial however would use this folder and their code would stay there. How would they keep track of their progress?
+
