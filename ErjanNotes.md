@@ -1,5 +1,6 @@
-#Notes on the Getting started tutorial and the reference
-*by Erjan Gavalji*
+Notes on the Getting started tutorial and the reference
+----
+*by Erjan Gavalji, Solutions Engineer, Glue42*
 
 1. Tutorial: Step 1.2: I want to add a reference to the JavaScript and I did not find it.
 Possibly mention the SDK folder I have on my desktop and suggest
