@@ -91,3 +91,12 @@ Can we rename `party` to something else, e.g. `client` to make it easier for
 understanding?
 
 After realizing this is an additional comment, can we change the style of these?
+
+15. [ ] **Potentially redundant information**
+
+The tutorial contains text about the typical error when invoking a method:
+> There's a common mistake people do when they try to invoke a method with a composite parameter.
+> Typically the incorrect code would look like this:...
+
+Verify this is still right, because I got the two windows synchronized with the first approach.
+Explain what would be the erroneous behavior if missed.

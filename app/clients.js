@@ -180,7 +180,7 @@ const invokeAgMethod = (client) => {
 
     // TUTOR_TODO Chapter 2.2 - Invoke the 'SetParty' AGM method passing the client object for the party argument.
     const methodName = 'SetParty';
-    window.glue.agm.invoke('SetParty', client)
+    window.glue.agm.invoke('SetParty', {party: client})
         .then(r => console.log(`Success invoking the ${methodName} method! Result: ${r}.`))
         .catch(e => console.log(`Error invoking the ${methodName} method! Details: ${e}.`));
 };
