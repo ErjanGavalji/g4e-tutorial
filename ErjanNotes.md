@@ -56,3 +56,12 @@ Section
 
 Only contains instructions to copy the configuration files. It does not contain instructions, nor a reference of what those files contain.
 
+9. [ ] **Improve discoverability**
+
+The applications are named Clients and Portfolio and are hard to find in AppManager. Use better naming, e.g. *Tutorial - Clients*, *Tutorial - Portfolio*?
+
+10. [ ] **Step not mentioned**
+
+The portfolio.html file is not mentioned in the tutorial
+
+
