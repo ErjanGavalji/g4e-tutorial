@@ -72,3 +72,6 @@ In the beginning I thought the `client.js` and `portfolio.js` files are `nodejs`
 
 It was not clear that the config variable would be named `glueConfig` (I actually required the config file and assigned it to my own variable).
 
+13. [ ] **Terminology**
+
+There is the `AGM (aka GLUE) methods` section in the tutorial. Let's choose one and stick to it. Be consistent with the casing too to avoid confusion.
