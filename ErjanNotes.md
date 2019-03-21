@@ -100,3 +100,8 @@ The tutorial contains text about the typical error when invoking a method:
 
 Verify this is still right, because I got the two windows synchronized with the first approach.
 Explain what would be the erroneous behavior if missed.
+
+16. [ ] **Tutorial apps hard to find**
+
+The applications we modify during in Chapter-1 are hard to find in the
+application selector.
