@@ -21,7 +21,7 @@
     "disabled": false,
     "hidden": false,
     "icon": "http://localhost:22909/resources/icons/tick42.ico",
-    "name": "Clients",
-    "title": "Clients",
+    "name": "TutorialCh1Clients",
+    "title": "Tutorial Chapter 1: Clients",
     "type": "window"
 }

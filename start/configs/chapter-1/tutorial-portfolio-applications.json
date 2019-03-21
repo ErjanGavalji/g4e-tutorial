@@ -24,7 +24,7 @@
     "disabled": false,
     "hidden": false,
     "icon": "http://localhost:22909/resources/icons/tick42.ico",
-    "name": "Portfolios",
-    "title": "Portfolio",
+    "name": "TutorialCh1Portfolios",
+    "title": "Tutorial Chapter 1: Portfolio",
     "type": "window"
 }
