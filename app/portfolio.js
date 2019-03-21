@@ -352,7 +352,7 @@ const addAvailableMethods = (methods, symbol, bpod) => {
 const invokeAgMethodByName = (methodName, params) => {
 
     // TUTOR_TODO 2.3 invoke the agm method with the passed methodName and passed params
-
+    glue.agm.invokeAgMethodByName(methodName, params);
 };
 
 const displayResult = (result) => {
