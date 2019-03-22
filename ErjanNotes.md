@@ -130,3 +130,14 @@ The tutorial
 
 Make sure the `app configuration folder` is a link to a place containing the
 description of the folder.
+
+21. [ ] **Subscription part in tutorial lacks argument assignment**
+
+See the following text:
+> In subscribeBySymbol you need to subscribe to a stream named
+> T42.MarketStream.Subscribe (created by the sample price publisher), which
+> expects a single subscription argument called Symbol (string).
+
+We do not specify that the `symbol` parameter should be used as a value of the
+argument
+
