@@ -116,8 +116,17 @@ of the documentation can be improved by adding cross-links to the other topics.
 The stream acceptance/rejection part of the documentation has a glitch, the
 `reject` method is not actually called when `symbol` has a falsy value.
 
-19 [ ] **Documentation lacks information**
+19. [ ] **Documentation lacks information**
 
 We have a special note on **Handling Last Subscription Removal**, but we never
 explain why this is a special case.
 
+20. [ ] **Instructions can be improved**
+
+The tutorial
+> Before you proceed make sure you copy the config file
+> (/support/tutorial-sample-price-publisher-applications.json) to the app
+> configuration folder and launch the app from the App manager.
+
+Make sure the `app configuration folder` is a link to a place containing the
+description of the folder.
