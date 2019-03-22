@@ -226,7 +226,8 @@ const unsubscribeSymbolPrices = () => {
 
     // TUTOR_TODO Chapter 3 - Traverse the saved subscriptions and close each one.
     // We need to do this, because when the portfolio changes, we need to clear the existing subscriptions and subscribe to the new symbol's stream
-
+    subscriptions.forEach(subscription => subscription.close());
+    subscriptions = [];
 }
 
 const subscribeBySymbol = (symbol, callback) => {
@@ -235,7 +236,18 @@ const subscribeBySymbol = (symbol, callback) => {
     // as a second parameter pass an options object with an `arguments` property, which has a property 'Symbol' and assign to it the symbol variable passed to this function
     // When the promise is resolved save the created subscription so that you can later close it and subscribe to new streams (when the portfolio changes)
     // Finally subscribe to the created subscription's onData event and invoke the callback passed to this function with the received streamData
-
+    glue.agm.subscribe(
+        'T42.MarketStream.Subscribe',
+        {
+            arguments: {
+                Symbol: symbol
+            }
+        },
+        (subscription) => {
+            subscriptions.push(subscription);
+            subscription.onData(streamData => callback(streamData));
+        }
+    );
 }
 
 const addRow = (table, rowData, emptyFlag) => {
