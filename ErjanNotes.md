@@ -105,3 +105,9 @@ Explain what would be the erroneous behavior if missed.
 
 The applications we modify during in Chapter-1 are hard to find in the
 application selector.
+
+17. [ ] **Documentation can be improved with cross-links**
+
+The [streaming part](https://docs.glue42.com/g4e/agm/index.html#interop-streaming)
+of the documentation can be improved by adding cross-links to the other topics.
+
