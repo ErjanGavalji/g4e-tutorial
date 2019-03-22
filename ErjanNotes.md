@@ -141,3 +141,15 @@ See the following text:
 We do not specify that the `symbol` parameter should be used as a value of the
 argument
 
+22. [ ] **Subscription storage unclear**
+
+In the `subscribeBySymbol` and `unsubscribeBySymbolPrices` (btw, why different
+namings?), it is mentioned to save/traverse the subscriptions respectively. It
+is not mentioned where to save them. Alas I found a `subscriptions` global
+array in the portfolio.js file, which I'll use.
+
+23. [ ] **Reward/result not clear**
+
+After the stream code is written, the portfolio application starts swowing
+constantly updated values in the Bid and Ask cells. Highlight this in a way so
+that the tutorial follower does not miss the result.
