@@ -5,7 +5,7 @@
         },
         "allowMultiple": false,
         "autoStart": false,
-        "caption": "SamplePricePublisher",
+        "caption": "Tutorial: SamplePricePublisher",
         "details": {
             "height": 150,
             "isSticky": false,
@@ -17,8 +17,8 @@
         },
         "disabled": false,
         "hidden": false,
-        "name": "SamplePricePublisher",
-        "title": "SamplePricePublisher",
+        "name": "TutorialSamplePricePublisher",
+        "title": "Tutorial: SamplePricePublisher",
         "type": "window",
         "version": "DEMO"
     }
