@@ -111,3 +111,8 @@ application selector.
 The [streaming part](https://docs.glue42.com/g4e/agm/index.html#interop-streaming)
 of the documentation can be improved by adding cross-links to the other topics.
 
+18. [ ] **Glitch in stream rejection example of the docs**
+
+The stream acceptance/rejection part of the documentation has a glitch, the
+`reject` method is not actually called when `symbol` has a falsy value.
+
