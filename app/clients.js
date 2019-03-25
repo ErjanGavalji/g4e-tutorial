@@ -58,7 +58,7 @@ const setUpUi = () => {
 
             // TUTOR_TODO Chapter 4.1 - Call openWindow with a window name, current window instance and a direction
             const myWin = glue.windows.my();
-
+            openWindow('TutorialPortfolio', myWin, 'bottom');
         }
     }
 
@@ -204,6 +204,14 @@ const openWindow = (windowName, myWin, direction) => {
 
     // TUTOR_TODO Chapter 4.1 - create an options object and define mode, relativeTo and relativeDirection properties
     // Use the Windows API to open a window with the provided windowName, options object and correct URL
+    const options = {
+        mode: 'flat',
+        relativeTo: myWin.id,
+        relativeDirection: direction,
+    };
+
+    const portfolioWinUrl = window.location.href.replace(/clients\.html/, 'portfolio.html');
+    glue.windows.open(windowName, portfolioWinUrl, options);
 
     // TUTOR_TODO Chapter 5 - Modify split the current options object into two separate objects - context and windowSettings
     // use the Application Management API to open a portfolio instance
