@@ -22,7 +22,7 @@
         "width": 600
     },
     "disabled": false,
-    "hidden": false,
+    "hidden": true,
     "icon": "http://localhost:22909/resources/icons/tick42.ico",
     "name": "TutorialCh1Portfolios",
     "title": "Tutorial Chapter 1: Portfolio",
