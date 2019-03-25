@@ -153,3 +153,10 @@ array in the portfolio.js file, which I'll use.
 After the stream code is written, the portfolio application starts swowing
 constantly updated values in the Bid and Ask cells. Highlight this in a way so
 that the tutorial follower does not miss the result.
+
+24. [ ] **Unclear file name noted**
+
+The window management section of the tutorial contains the following:
+> Begin by modifying the portfolio json file in the GD configuration folder
+
+The config file name in question is `tutorial-portfolio-applications.json`
