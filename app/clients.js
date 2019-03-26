@@ -205,9 +205,15 @@ const openWindow = (windowName, myWin, direction) => {
     // TUTOR_TODO Chapter 4.1 - create an options object and define mode, relativeTo and relativeDirection properties
     // Use the Windows API to open a window with the provided windowName, options object and correct URL
     const options = {
-        mode: 'flat',
+        mode: 'html',
         relativeTo: myWin.id,
         relativeDirection: direction,
+        allowClose: false,
+        allowCollapse: false,
+        allowMaximize: false,
+        allowMinimize: false,
+        minHeight: 400,
+        minWidth: 600,
     };
 
     const portfolioWinUrl = window.location.href.replace(/clients\.html/, 'portfolio.html');
